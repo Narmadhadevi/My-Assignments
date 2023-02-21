@@ -5,16 +5,14 @@ import org.department.Department;
 
 public class Student extends Department{
 	public static void main(String[] args) {
-		College obj=new College();
+		Student obj=new Student();
 		obj.collegeName();
 		obj.collegeCode();
 		obj.collegeRank();
-		Department obj2=new Department();
-		obj2.deptName();
-		Student obj3=new Student();
-		obj3.studentDept();
-		obj3.studentId();
-		obj3.studentName();
+		obj.deptName();
+		obj.studentDept();
+		obj.studentId();
+		obj.studentName();
 		}
 	
 	
